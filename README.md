@@ -1,90 +1,126 @@
-# Informatica PowerCenter Tasks
+# 📊 Informatica PowerCenter Tasks
 
-This repository contains practical tasks and exercises from the **Informatica Tutorial: Beginner to Expert Level** course. Each folder represents a different transformation or concept in Informatica PowerCenter.
+A comprehensive collection of ETL mappings and workflows demonstrating practical implementations of Informatica PowerCenter transformations. This repository showcases real-world data integration scenarios from beginner to expert level.
 
-## 📚 Course Overview
+## 🎯 Overview
 
-Informatica PowerCenter is a widely-used ETL (Extract, Transform, Load) tool for data integration and enterprise data warehousing. This repository documents hands-on tasks that demonstrate core PowerCenter transformations and features.
+This repository contains hands-on exercises and implementations covering various Informatica PowerCenter transformations and techniques. Each folder represents a specific transformation type with complete mapping designs, workflows, and documentation.
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
-### 1. Filter
-Contains tasks related to the **Filter Transformation** in Informatica PowerCenter.
+### 1. **Filter Transformation**
+- Implementing data filtering based on business logic
+- Conditional row selection
+- Performance optimization techniques
+- Use cases: Data quality checks, record validation
 
-- **Purpose**: Filter transformation allows you to filter rows in a mapping based on specified conditions
-- **Use Case**: Selecting specific records that meet business criteria (e.g., filtering active customers, sales above a threshold)
-- **Key Concepts**: 
-  - Filter conditions
-  - Boolean expressions
-  - Data quality and validation
+### 2. **Router Transformation**
+- Multi-group data routing
+- Complex conditional logic implementation
+- Default group handling
+- Use cases: Data segregation, multi-target loading
 
-### 2. Router Task
-Contains tasks related to the **Router Transformation** in Informatica PowerCenter.
+### 3. **Sequence Number Generation**
+- Generating unique sequence numbers
+- Surrogate key creation
+- Handling sequence reset scenarios
+- Use cases: Primary key generation, record numbering
 
-- **Purpose**: Router transformation allows you to route data to multiple transformations based on group conditions
-- **Use Case**: Segregating data into multiple output groups (e.g., routing orders by region, categorizing products by price range)
-- **Key Concepts**:
-  - Multiple output groups
-  - Group filter conditions
-  - Default group for unmatched rows
+## 🚀 Getting Started
 
-### 3. Sequence Number
-Contains tasks related to **Sequence Generator Transformation** in Informatica PowerCenter.
+### Prerequisites
+- Informatica PowerCenter 9.x or higher
+- PowerCenter Designer
+- Workflow Manager
+- Repository Service configured
+- Integration Service configured
 
-- **Purpose**: Generates unique sequential numeric values for each row
-- **Use Case**: Creating surrogate keys, generating unique IDs for dimension tables
-- **Key Concepts**:
-  - NEXTVAL and CURRVAL ports
-  - Start value and increment by settings
-  - Reusable vs. non-reusable sequence generators
+### How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/ahmedtaha89/Informatica-PowerCenter-Tasks.git
+   ```
 
-## 🎯 Learning Objectives
+2. Import the mappings into your PowerCenter Repository:
+   - Open PowerCenter Designer
+   - Connect to your repository
+   - Import XML files from respective folders
 
-Through these tasks, you will learn to:
+3. Configure connections and sessions as needed
 
-- Implement data filtering logic in ETL mappings
-- Route data to multiple targets based on business rules
-- Generate unique identifiers for data warehousing
-- Design efficient data transformation workflows
-- Apply best practices in Informatica PowerCenter development
+4. Execute workflows through Workflow Manager or Workflow Monitor
 
-## 🛠️ Prerequisites
+## 📚 Learning Path
 
-To work with these tasks, you should have:
+This repository follows a structured learning approach:
 
-- Informatica PowerCenter installed (Designer, Workflow Manager, Workflow Monitor)
-- Basic understanding of ETL concepts
-- Familiarity with databases and SQL
-- Access to source and target database connections
+**Beginner Level:**
+- Basic transformations (Filter, Router)
+- Simple source-to-target mappings
+- Session configuration
 
-## 📖 How to Use This Repository
+**Intermediate Level:**
+- Complex transformation logic
+- Multiple transformations in single mapping
+- Performance tuning
 
-1. Navigate to the specific task folder you want to explore
-2. Review the XML files (mapping exports) or documentation provided
-3. Import the mappings into your Informatica PowerCenter Designer
-4. Set up required source and target connections
-5. Execute the workflows and analyze the results
+**Advanced Level:**
+- Reusable transformations
+- Advanced workflow design
+- Error handling and recovery
 
-## 🔗 Resources
+## 🛠️ Key Concepts Covered
 
-- [Informatica Official Documentation](https://docs.informatica.com/)
-- [Informatica Network Community](https://network.informatica.com/)
-- Course: Informatica Tutorial: Beginner to Expert Level
+- **ETL Best Practices**: Efficient data extraction, transformation, and loading
+- **Transformation Types**: Filter, Router, Sequence Generator, and more
+- **Workflow Design**: Session tasks, workflow variables, and dependencies
+- **Performance Optimization**: Pushdown optimization, partitioning, caching
+- **Error Handling**: Session recovery, error logging, reject file handling
 
-## 📝 Notes
+## 📖 Use Cases
 
-- Each task folder may contain mapping XML files, workflows, and supporting documentation
-- Ensure you have appropriate database permissions before running the workflows
-- Modify connection details according to your environment setup
+Each transformation folder includes:
+- Mapping screenshots/XML files
+- Business requirements documentation
+- Source and target definitions
+- Transformation logic explanations
+- Sample data (where applicable)
 
-## 👤 Author
+## 🎓 Skills Demonstrated
+
+- Data Integration Architecture
+- ETL Design Patterns
+- Informatica PowerCenter Development
+- Data Quality Implementation
+- Workflow Orchestration
+- Performance Tuning
+
+## 🤝 Contributing
+
+Feel free to contribute by:
+- Adding new transformation examples
+- Improving documentation
+- Suggesting optimizations
+- Reporting issues
+
+## 📧 Contact
 
 **Ahmed Taha**
+- GitHub: [@ahmedtaha89](https://github.com/ahmedtaha89)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/ahmedtaha89)
 
-## 📄 License
+## 📝 License
 
-This project is intended for educational purposes.
+This project is available for educational and reference purposes.
+
+## ⭐ Acknowledgments
+
+Based on practical exercises from "Informatica Tutorial: Beginner to Expert Level" course, focusing on real-world data integration scenarios.
 
 ---
 
-*Happy Learning! 🚀*
+**Note**: This repository is continuously updated with new transformations and advanced scenarios. Star ⭐ this repo to stay updated!
+
+## 🔖 Tags
+
+`informatica` `powerCenter` `etl` `data-integration` `data-engineering` `transformations` `workflow` `mapping` `tutorial` `learning`
