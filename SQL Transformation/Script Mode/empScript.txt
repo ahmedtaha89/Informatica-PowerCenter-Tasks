@@ -1,0 +1,15 @@
+CREATE TABLE TGT_EMPLOYEES_Script_mode
+(
+    EMPLOYEE_ID    number(6) NOT NULL,
+    FULLNAME       varchar2(20),
+    EMAIL          varchar2(25) NOT NULL,
+    PHONE_NUMBER   varchar2(20),
+    HIRE_DATE      date NOT NULL,
+    JOB_ID         varchar2(10) NOT NULL,
+    SALARY         number(8,2),
+    COMMISSION_PCT number(2,2),
+    MANAGER_ID     number(6),
+    DEPARTMENT_ID  number(4),
+    TOTAL_SALARY   number,
+    COMM           number
+);
