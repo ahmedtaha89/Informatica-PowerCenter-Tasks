@@ -1,0 +1,7 @@
+#XPK_Employee,FK_Department,EmpID,Status,FirstName,LastName,Email,Phone,HireDate,Salary,Street,City,State,ZipCode
+13,7,E001,Active,John,Smith,john.smith@company.com,555-0101,2020-01-15,75000,123 Main St,New York,NY,10001
+14,7,E002,Active,Emily,Davis,emily.davis@company.com,555-0102,2019-03-20,82000,456 Oak Ave,Brooklyn,NY,11201
+15,8,E003,Active,David,Rodriguez,david.rodriguez@company.com,555-0201,2018-06-10,95000,789 Tech Blvd,San Francisco,CA,94102
+16,8,E004,Active,Lisa,Anderson,lisa.anderson@company.com,555-0202,2021-09-05,88000,321 Innovation Dr,Palo Alto,CA,94301
+17,8,E005,Inactive,Robert,Taylor,robert.taylor@company.com,555-0203,2017-02-14,92000,654 Silicon Way,San Jose,CA,95110
+18,9,E006,Active,Amanda,Martinez,amanda.martinez@company.com,555-0301,2020-11-01,72000,147 Finance Plaza,Chicago,IL,60601
