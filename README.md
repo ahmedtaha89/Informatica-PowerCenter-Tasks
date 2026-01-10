@@ -8,23 +8,83 @@ This repository contains hands-on exercises and implementations covering various
 
 ## 📁 Repository Structure
 
-### 1. **Filter Transformation**
+### 1. **Aggregator**
+- Performing aggregate calculations (SUM, AVG, COUNT, MIN, MAX)
+- Group by operations
+- Sorted and unsorted aggregations
+- Use cases: Sales reporting, data summarization, statistical analysis
+
+### 2. **Filter**
 - Implementing data filtering based on business logic
 - Conditional row selection
 - Performance optimization techniques
 - Use cases: Data quality checks, record validation
 
-### 2. **Router Transformation**
+### 3. **Joiner**
+- Joining data from multiple sources
+- Inner, outer, left, and right joins
+- Master-detail relationships
+- Use cases: Data consolidation, reference data lookup
+
+### 4. **Lookup Connected**
+- Connected lookup transformations
+- Cacheable and non-cacheable lookups
+- Dynamic and static lookups
+- Use cases: Reference data retrieval, data enrichment
+
+### 5. **Lookup Unconnected**
+- Unconnected lookup implementation
+- Return values and expressions
+- Performance considerations
+- Use cases: Conditional lookups, validation checks
+
+### 6. **Normalizer Transformation**
+- Converting denormalized data to normalized form
+- Multiple occurring columns handling
+- VSAM and COBOL source processing
+- Use cases: Legacy data migration, data restructuring
+
+### 7. **Rank**
+- Ranking records based on specified criteria
+- Top N and Bottom N selection
+- Group by ranking
+- Use cases: Top performers, priority ranking
+
+### 8. **Router Task**
 - Multi-group data routing
 - Complex conditional logic implementation
 - Default group handling
 - Use cases: Data segregation, multi-target loading
 
-### 3. **Sequence Number Generation**
+### 9. **Sequence Number**
 - Generating unique sequence numbers
 - Surrogate key creation
 - Handling sequence reset scenarios
 - Use cases: Primary key generation, record numbering
+
+### 10. **Sorter**
+- Sorting data based on one or multiple columns
+- Ascending and descending order
+- Case-sensitive and case-insensitive sorting
+- Use cases: Data ordering, pre-join sorting
+
+### 11. **Transaction Control**
+- Controlling commit and rollback operations
+- Transaction boundaries management
+- Error handling at transaction level
+- Use cases: Batch processing, ensuring data consistency
+
+### 12. **Union & Router**
+- Combining data from multiple sources
+- Union transformation implementation
+- Integration with Router for complex workflows
+- Use cases: Data consolidation, multi-source integration
+
+### 13. **Update Strategy**
+- Defining insert, update, delete, and reject operations
+- CDC (Change Data Capture) implementation
+- Slowly Changing Dimensions (SCD)
+- Use cases: Data synchronization, incremental loads
 
 ## 🚀 Getting Started
 
